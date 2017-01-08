@@ -53,7 +53,9 @@ a:hover {
   color: black;
   list-style: none;
 }
-
+.pumpkin {
+  display: inline-block;
+}
 #main {
 
   }
