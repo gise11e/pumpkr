@@ -30,7 +30,7 @@ h1 {
    background: url(../images/fire.gif);
    background-size: cover;
    overflow: hidden;
-   cursor: url(../images/knive.png),auto;
+   cursor: url(../images/knive.png) -5 45,auto;
 
  }
 
