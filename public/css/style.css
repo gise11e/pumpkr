@@ -1,0 +1,57 @@
+h1 {
+  font-family: eater, sans-serif;
+  font-size: 50px;
+  color: orange;
+
+}
+
+
+ body {
+  font-family: creepster, sans-serif;
+  color: orange;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  background: white;
+ }
+ .search {
+   margin-right: 15px;
+ }
+
+ #carvingboard {
+   position: relative;
+   margin: 30px auto;
+   width: 400px;
+   height: 400px;
+   background: url(../images/fire.gif);
+   background-size: cover;
+   overflow: hidden;
+ }
+
+ #canvas {
+   width: 400px;
+   height: 400px;
+   background: transparent;
+ }
+
+a {
+  color:black;
+  list-style: none;
+
+}
+
+a:hover {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+.new {
+  margin: 20px;
+  font-size: 40px;
+  color: black;
+  list-style: none;
+}
+
+#main {
+  }
