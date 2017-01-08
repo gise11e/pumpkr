@@ -26,7 +26,7 @@ function postPumpkin() {
 function deletePumpkin(id) {
   return $.ajax({
     method: "DELETE",
-    url: "https://pumpkr.herokuapp.com/" + id
+    url: "https://pumpkr.herokuapp.com/pumpkins/" + id
   }).done(function () {
     return function () {
       $('#' + id).slideUp();
