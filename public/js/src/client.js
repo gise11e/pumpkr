@@ -3,7 +3,7 @@ function getAndRenderPumpkins() {
   if (event) event.preventDefault();
   return $.ajax({
     method: "GET",
-    url: "http://localhost:8000/pumpkins",
+    url: "https://pumpkr.herokuapp.com/pumpkins"
   })
   .done(onSuccess)
   .fail(onError);
@@ -17,7 +17,7 @@ function postPumpkin() {
 
   return $.ajax({
     method: "POST",
-    url: "http://localhost:8000/pumpkins",
+    url: "https://pumpkr.herokuapp.com/pumpkins",
     data: pumpkin
   }).done(function () {
     window.location = '/';
@@ -27,7 +27,7 @@ function postPumpkin() {
 function deletePumpkin(id) {
   return $.ajax({
     method: "DELETE",
-    url: "http://localhost:8000/pumpkins/" + id
+    url: "https://pumpkr.herokuapp.com/" + id
   }).done(function () {
     return function() {
       $('#' + id).slideUp();
