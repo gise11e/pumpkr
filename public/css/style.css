@@ -1,3 +1,7 @@
+html {
+
+}
+
 h1 {
   font-family: eater, sans-serif;
   font-size: 50px;
@@ -26,6 +30,8 @@ h1 {
    background: url(../images/fire.gif);
    background-size: cover;
    overflow: hidden;
+   cursor: url(../images/knive.png),auto;
+
  }
 
  #canvas {
@@ -43,8 +49,22 @@ a {
 
 a:hover {
   list-style: none;
+  color: orange;
+  text-decoration: none;
+  list-style: none;
+
+}
+a:active {
+  list-style: none;
+  color: orange;
+  text-decoration: none;
+  list-style: none;
+}
+a:visited {
+  list-style: none;
   color: black;
   text-decoration: none;
+  list-style: none;
 }
 
 .new {
