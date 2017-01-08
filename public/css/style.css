@@ -26,12 +26,15 @@ h1 {
    background: url(../images/fire.gif);
    background-size: cover;
    overflow: hidden;
+   border-radius: 50px;
  }
 
  #canvas {
    width: 400px;
    height: 400px;
    background: transparent;
+   border-radius: 50px;
+
  }
 
 a {
@@ -54,4 +57,5 @@ a:hover {
 }
 
 #main {
+
   }
