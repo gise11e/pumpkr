@@ -6,7 +6,7 @@ const router   = require('./config/routes');
 const bodyParser = require('body-parser');
 
 const app = express();
-mongoose.connect('mongodb://localhost/pumpkr');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pumpkr');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
