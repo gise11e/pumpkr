@@ -9,7 +9,7 @@ function pumpkinsIndex(req, res) {
 		var pumpkinsWithImage = [];
 		for (var i=0; i<pumpkins.length; i++) {
 		 var pumpkin = pumpkins[i].toObject();
-		 pumpkin.previewSrc = 'http://' + req.get('host') + '/images/' + pumpkins[i]._id + '.png';
+		 pumpkin.previewSrc = '//' + req.get('host') + '/images/' + pumpkins[i]._id + '.png';
 		 pumpkinsWithImage.push(pumpkin);
 		}
 		res.json(pumpkinsWithImage);
